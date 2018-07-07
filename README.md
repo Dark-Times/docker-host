@@ -25,4 +25,4 @@ To confirm that gui apps can be passed through successfully from containers run 
 
 $ sudo docker build --rm -t xeyes testimage/.
 
-$ sudo docker run --net=host --env="DISPLAY" --volume="$HOME/.Xauthority:/root/.Xauthority:rw" xeyes
+$ sudo docker run --rm --net=host --env="DISPLAY" --volume="$HOME/.Xauthority:/root/.Xauthority:rw" xeyes
