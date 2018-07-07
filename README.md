@@ -20,7 +20,7 @@ To run:
 $ sudo apt-get update >> *enter password*
 
 
-*Copy and paste the following into your ssh-client*
+**Copy and paste the following into your ssh-client**
 
 $ sudo apt-get install dos2unix -y
 
@@ -31,7 +31,7 @@ $ chmod a+x setup-docker-host.sh
 $ sudo ./setup-docker-host.sh
 
 
-*To test if this has been successful*
+**To test if this has been successful**
 
 Connect to machine via putty with x11 enabled >> $ xeyes (xeyes should appear on your local desktop)
 
