@@ -1,6 +1,6 @@
 # docker-host
 
-**To run: **
+**To run:**
 
 git clone https://github.com/Dark-Times/docker-host.git
 
